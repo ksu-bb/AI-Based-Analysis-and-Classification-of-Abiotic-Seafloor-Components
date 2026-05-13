@@ -19,6 +19,8 @@ AI-Based-Analysis-and-Classification-of-Abiotic-Seafloor-Components/
 ├── README.md
 ├── requirements.txt
 ├── pyproject.toml
+├── notebooks/
+│   └── Clustering_Agglomerative.ipynb    # реализация иерархической кластеризации
 ├── scripts/
 │   ├── create_dataset.py       # станции пробоотбора + гидроакустические данные (GeoTIFF) → обучающий датасет NPZ
 │   ├── inspect_npz.py          # проверка NPZ и визуализация случайных патчей
