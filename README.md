@@ -22,7 +22,7 @@ AI-Based-Analysis-and-Classification-of-Abiotic-Seafloor-Components/
 ├── notebooks/
 │   └── Clustering_Agglomerative.ipynb    # реализация иерархической кластеризации
 ├── scripts/
-│   ├── create_dataset.py       # станции пробоотбора + гидроакустические данные (GeoTIFF) → обучающий датасет NPZ
+│   ├── create_dataset.py       # создание обучающего датасета (станции пробоотбора + гидроакустические данные) в формате NPZ
 │   ├── inspect_npz.py          # проверка NPZ и визуализация случайных патчей
 │   ├── train_rf.py             # обучение RandomForest
 │   └── predict_geotiff.py      # предсказание гранулометрических свойств грунта по GeoTIFF ГЛБО + GeoTIFF батиметрии
