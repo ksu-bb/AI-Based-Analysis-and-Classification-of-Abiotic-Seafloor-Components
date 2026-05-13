@@ -23,6 +23,8 @@ AI-Based-Analysis-and-Classification-of-Abiotic-Seafloor-Components/
 ├── README.md
 ├── requirements.txt
 ├── pyproject.toml
+├── models/
+│   └── RF_patch_level_weighted.joblib    # модель для предсказания гранулометрии по гидроакустическим данным 
 ├── notebooks/
 │   └── Clustering_Agglomerative.ipynb    # реализация иерархической кластеризации
 ├── scripts/
