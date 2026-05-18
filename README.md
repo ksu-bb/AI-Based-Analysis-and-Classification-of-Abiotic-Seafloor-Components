@@ -39,7 +39,7 @@ AI-Based-Analysis-and-Classification-of-Abiotic-Seafloor-Components/
     ├── modeling.py             # RF pipeline, метрики, CorrelationFilter
     └── raster_utils.py         # чтение растров, маски, slope, станции
 ```
-# Requirements:
+### Requirements:
 ```text
 numpy>=1.24
 pandas>=2.0
