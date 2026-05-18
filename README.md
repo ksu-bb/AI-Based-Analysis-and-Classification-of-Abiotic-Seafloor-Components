@@ -25,7 +25,8 @@ AI-Based-Analysis-and-Classification-of-Abiotic-Seafloor-Components/
 ├── requirements.txt
 ├── pyproject.toml
 ├── models/
-│   └── RF_patch_level_weighted.joblib    # модель для предсказания гранулометрии по гидроакустическим данным 
+│   ├── RF_patch_level_weighted.joblib    # модель для предсказания гранулометрии по гидроакустическим данным 
+│   └── RF_patch_level_weighted_feature_columns.json   # файл со списком признаков, использованных при обучении
 ├── notebooks/
 │   └── Clustering_Agglomerative.ipynb    # реализация иерархической кластеризации
 ├── scripts/
@@ -38,7 +39,18 @@ AI-Based-Analysis-and-Classification-of-Abiotic-Seafloor-Components/
     ├── modeling.py             # RF pipeline, метрики, CorrelationFilter
     └── raster_utils.py         # чтение растров, маски, slope, станции
 ```
-
+# Requirements:
+```text
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+scikit-image>=0.21
+rasterio>=1.3
+matplotlib>=3.7
+joblib>=1.3
+tqdm>=4.66
+```
 ---
 
 ## Предсказание гранулометрических свойств донных грунтов по гидроакустическим данным
