@@ -11,6 +11,7 @@
 ---
 
 ## 1. Структура проекта
+В данном проекте представлены основные результаты работы 
 
 ```text
 AI-Based-Analysis-and-Classification-of-Abiotic-Seafloor-Components/
